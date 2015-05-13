@@ -2,6 +2,9 @@
 
 class HomeController extends BaseController {
 
+
+
+
 	/*
 	|--------------------------------------------------------------------------
 	| Default Home Controller
@@ -17,7 +20,9 @@ class HomeController extends BaseController {
 
 	public function showWelcome()
 	{
+
 	
+
 		echo Request::segment(1);
 		return View::make('hello');
 	}

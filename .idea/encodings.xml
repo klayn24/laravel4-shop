@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/app/controllers/BaseController.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/controllers/UsersController.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/database/migrations/2015_05_13_194910_create_users_table.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/lang/en/pagination.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/lang/en/reminders.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/lang/en/validation.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/lang/ru/pagination.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/lang/ru/reminders.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/lang/ru/validation.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/libs/lang/Langerror.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/libs/lang/Langsuccess.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/models/User.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/layouts/main.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/users/signup.blade.php" charset="UTF-8" />
+  </component>
+</project>
+

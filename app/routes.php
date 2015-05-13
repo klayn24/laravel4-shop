@@ -13,10 +13,11 @@
 
 
 
-Route::group(array('prefix' => LaravelLocalization::setLocale()), function()
+Route::group(array('prefix' => LaravelLocalization::setLocale(), 'before' => 'LaravelLocalizationRedirectFilter'), function()
     {
         /** ADD ALL LOCALIZED ROUTES INSIDE THIS GROUP **/
-        Route::get('/', ['uses'=>'HomeController@showWelcome']);
+        //Route::get('/', ['uses'=>'UsersController@getSsss']);
 
+        Route::controller('users', 'UsersController');
         
     });
