@@ -1,3 +1,7 @@
+##Online store with support for multiple languages
+
+Implemented with the authorization of the registration. All language files are stored in libs\lang\...
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
