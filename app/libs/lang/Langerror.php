@@ -21,6 +21,9 @@ class Langerror
         $lang['ru']['title_3'] = "Вы уже вошли в свой личный кабинет";
         $lang['en']['title_3'] = "You are already logged in to your personal cabinet";
 
+        $lang['ru']['title_4'] = "Не трогайте поисковую строку браузера";
+        $lang['en']['title_4'] = "Do not touch the search bar of your browser";
+
 
         return $lang[$segment];
     }

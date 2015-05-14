@@ -23,6 +23,7 @@ class UsersController extends BaseController
             return $this->myRedirect('/', $this->langError['title_3'], 'noDisplay');
 
         $this->data['title'] = $this->langAll['title_1'];
+        $this->data['meta'] = $this->data['title'];
         return View::make('users.signup', ['data'=>$this->data]);
     }
 

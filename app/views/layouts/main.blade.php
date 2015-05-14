@@ -62,7 +62,27 @@ $meta_d = preg_replace("/&gt;/","",$meta_d);
             </div>
         </div>
     </div><!--/header_top-->
+    <?php
+    /**
+     * изменяем юрл, чтобы он оставался прежним, но заменялся язык
+     */
+    $url = explode('/', $_SERVER['REQUEST_URI']);
+    $temp = array();
 
+    if(isset($url[1]) && !isset($url[2]))
+    {
+        $temp = explode('?', $url[1]);
+        unset($temp[0]);
+    }
+
+    unset($url[0]); unset($url[1]);
+    $url = implode('/', $url);
+    if(isset($temp[1]))
+        $url .= "?".$temp[1];
+
+
+
+    ?>
     <div class="header-middle"><!--header-middle-->
         <div class="container">
             <div class="row">
@@ -77,7 +97,7 @@ $meta_d = preg_replace("/&gt;/","",$meta_d);
                                 <span class="caret"></span>
                             </button>
                             <ul class="dropdown-menu">
-                                <?php $url = explode('/', $_SERVER['REQUEST_URI']); unset($url[0]); unset($url[1]); $url = implode('/', $url);?>
+
                                 <li><a href="/ru/<?=$url?>">Русский</a></li>
                                 <li><a href="/en/<?=$url?>">English</a></li>
                             </ul>

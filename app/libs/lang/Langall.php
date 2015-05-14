@@ -69,6 +69,21 @@ class Langall
         $lang['ru']['title_19'] = "Выйти";
         $lang['en']['title_19'] = "Logout";
 
+        $lang['ru']['title_20'] = "Все товары на сайте E-Shopper";
+        $lang['en']['title_20'] = "All products on the site E-Shopper";
+
+        $lang['ru']['title_21'] = "В нашем магазине очень просто купить любые товары";
+        $lang['en']['title_21'] = "In our shop is very easy to buy any goods";
+
+        $lang['ru']['title_22'] = "Популярные товары";
+        $lang['en']['title_22'] = "Featured items";
+
+        $lang['ru']['title_23'] = "Добавить в корзину";
+        $lang['en']['title_23'] = "Add to cart";
+
+        $lang['ru']['title_24'] = "Добавить в желаемое";
+        $lang['en']['title_24'] = "Add to wishlist";
+
 
 
         return $lang[$segment];

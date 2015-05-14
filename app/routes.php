@@ -16,8 +16,10 @@
 Route::group(array('prefix' => LaravelLocalization::setLocale(), 'before' => 'LaravelLocalizationRedirectFilter'), function()
     {
         /** ADD ALL LOCALIZED ROUTES INSIDE THIS GROUP **/
-        //Route::get('/', ['uses'=>'UsersController@getSsss']);
+        Route::get('/', ['uses'=>'GoodsController@getAllGoods']);
 
         Route::controller('users', 'UsersController');
+
+        Route::controller('store', 'GoodsController');
         
     });
